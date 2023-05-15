@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="./respons_imag.css">
+</head>
+<body>
+    <main>
+     <!--   --no es una buena practica-- -->
+      <!--   <div class="picture">
+            <img src="./Imagenes/foto.png" alt="">
+        </div> -->
+        <picture>
+            <source nedia="(min-width:1300px)" srcset="./Imagenes/large.jpg">
+            <source media="(min-width:1000px)" srcset="./Imagenes/medium.jpg">
+            <img src="./Imagenes/foto.png" alt="Es una imagen de ejemplo">
+        </picture>
+    </main> 
+</body>
+</html>
